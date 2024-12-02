@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Search Engine - Easy Tutorials</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1>MidyAI Image Search Engine</h1>
-<form id="search-form">
-  <input type="text" id="search-box" placeholder="Search anything here...">
-  <button>Search</button>
-</form>
-<div id="search-result"></div>
-<button id="show-more-btn">Show more</button>
-
-<script src="script.js"></script>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="message show">
+      <img src="logo.png" alt="midyAI logo" />
+      <h1
+        class="text-4xl sm:text-[52px] font-bold font-secondary text-gray-800 dark:text-gray-100 uppercase relative"
+      >
+        MIDYAI Image Search Engine
+      </h1>
+      <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-400">
+        Find images fast with powerful search capabilities
+      </h2>
+      <input
+        type="text"
+        placeholder="Search anything here..."
+        class="text-input"
+      />
+    </div>
+    <div class="hero hide">
+      <!-- <h1>MidyAI Image Search Engine</h1> -->
+      <span> <img src="logo.png" alt="midyAI logo" class="logo" /></span>
+      <form id="search-form">
+        <input
+          type="text"
+          id="search-box"
+          placeholder="Search anything here..."
+        />
+        <button>Search</button>
+      </form>
+      <div id="search-result"></div>
+      <button id="show-more-btn">Show more</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
