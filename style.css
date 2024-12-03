@@ -9,6 +9,10 @@ body {
   color: #fff;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .hero {
   /* height: 100vh; */
   margin-top: 70px;
